@@ -30,10 +30,10 @@ public:
     ~Stack();
 };
 
-const int POISON 		   	   =       -666;
-const int DEFAULT_CAPACITY 	   = 	      4;
-const int STACK_CANARY		   = 0xDEADBEEF;
-const int DATA_CANARY		   =   0xC0FFEE;
+const int POISON               =       -666;
+const int DEFAULT_CAPACITY     =          4;
+const int STACK_CANARY         = 0xDEADBEEF;
+const int DATA_CANARY          =   0xC0FFEE;
 
 const int STACK_NULL           =          1;
 const int DATA_NULL            =          2;
