@@ -2,9 +2,9 @@
 
 Stack::~Stack()
 {
-	std::cout << "Destructor was called" << std::endl;
+    std::cout << "Destructor was called" << std::endl;
 #ifdef DEBUG
-	assert(!OK());
+    assert(!OK());
 #endif
-	if (_data) free (_data);
+    if (_data) free (_data);
 }
