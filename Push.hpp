@@ -1,5 +1,5 @@
 template<class T>
-void Stack<T>::Push(T& x)
+void Stack<T>::Push(T x)
 {
 #if DEBUG == 1
     assert(!OK());

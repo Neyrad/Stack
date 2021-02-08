@@ -30,7 +30,7 @@ public:
     void SetName(const char* _name);
     int OK();
 
-    void Push(T& x);
+    void Push(T x);
     int Pop(T* x);
 
     size_t CalcHash();
